@@ -1,0 +1,19 @@
+:checked + #rating_input {
+  background-color: rgba(128, 128, 128, 0.5);
+  padding: 1px;
+  border-radius: 40px;
+  font-size: 24px;
+}
+
+input[type="radio"] {
+  visibility: hidden;
+  cursor: pointer;
+}
+
+#rating_label:hover {
+  cursor: pointer;
+}
+
+.button {
+  opacity: 0.9;
+}
